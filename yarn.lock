@@ -2,60 +2,70 @@
 # yarn lockfile v1
 
 
-"@progfay/scrapbox-parser@^8.0.0":
-  "integrity" "sha512-onE1zSlD+aRzEHAG7r8SIBaQr/VqmrWC6Wg5I85amjRJTvZZKG3ZROCyoQwznBm9WFuaJHTT3ttxdLYKOEF09g=="
-  "resolved" "https://registry.npmjs.org/@progfay/scrapbox-parser/-/scrapbox-parser-8.0.0.tgz"
-  "version" "8.0.0"
+"@esbuild/darwin-arm64@0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.20.0.tgz"
+  integrity sha512-AjEcivGAlPs3UAcJedMa9qYg9eSfU6FnGHJjT8s346HSKkrcWlYezGE8VaO2xKfvvlZkgAhyvl06OJOxiMgOYQ==
 
-"@types/node@^18.0.0":
-  "integrity" "sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-18.0.0.tgz"
-  "version" "18.0.0"
+"@progfay/scrapbox-parser@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.npmjs.org/@progfay/scrapbox-parser/-/scrapbox-parser-8.1.0.tgz"
+  integrity sha512-egMX92PZp4vWwmUkEp+xBruQo7OU3qT80/AvWTUUH4UuPXsMewWu0XNckxGtxby3HEcJ2VObSp5IaUdLyBL4OA==
 
-"esbuild-linux-64@0.14.45":
-  "integrity" "sha512-IybO2ugqvc/Zzn1Kih3x0FVjYAy3GTCwhtcp91dbdqk3wPqxYCzObYspa8ca0s+OovI0Cnb+rhXrUtq8gBqlqw=="
-  "resolved" "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-0.14.45.tgz"
-  "version" "0.14.45"
-
-"esbuild@^0.14.45":
-  "integrity" "sha512-JOxGUD8jcs8xE8DjyGWC8by/vLMCXTJ/wuauWipL5kJRZx1dhpqIntb31QHjA45GZJWaXv7SjC/Zwu1bCkXWtQ=="
-  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.45.tgz"
-  "version" "0.14.45"
-  optionalDependencies:
-    "esbuild-android-64" "0.14.45"
-    "esbuild-android-arm64" "0.14.45"
-    "esbuild-darwin-64" "0.14.45"
-    "esbuild-darwin-arm64" "0.14.45"
-    "esbuild-freebsd-64" "0.14.45"
-    "esbuild-freebsd-arm64" "0.14.45"
-    "esbuild-linux-32" "0.14.45"
-    "esbuild-linux-64" "0.14.45"
-    "esbuild-linux-arm" "0.14.45"
-    "esbuild-linux-arm64" "0.14.45"
-    "esbuild-linux-mips64le" "0.14.45"
-    "esbuild-linux-ppc64le" "0.14.45"
-    "esbuild-linux-riscv64" "0.14.45"
-    "esbuild-linux-s390x" "0.14.45"
-    "esbuild-netbsd-64" "0.14.45"
-    "esbuild-openbsd-64" "0.14.45"
-    "esbuild-sunos-64" "0.14.45"
-    "esbuild-windows-32" "0.14.45"
-    "esbuild-windows-64" "0.14.45"
-    "esbuild-windows-arm64" "0.14.45"
-
-"follow-redirects@^1.15.0":
-  "integrity" "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA=="
-  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
-  "version" "1.15.2"
-
-"image-downloader@^4.3.0":
-  "integrity" "sha512-UBioN0E+8zu8N0lLC6wkZmPA/MA1A3yx9B1whjy5O/YiOV9XrSxLLKi7JqLLj6knQ3n9N1OBoHFS7shp8sehBQ=="
-  "resolved" "https://registry.npmjs.org/image-downloader/-/image-downloader-4.3.0.tgz"
-  "version" "4.3.0"
+"@types/node@^20.11.16":
+  version "20.11.16"
+  resolved "https://registry.npmjs.org/@types/node/-/node-20.11.16.tgz"
+  integrity sha512-gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ==
   dependencies:
-    "follow-redirects" "^1.15.0"
+    undici-types "~5.26.4"
 
-"typescript@^4.7.4":
-  "integrity" "sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz"
-  "version" "4.7.4"
+esbuild@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.20.0.tgz"
+  integrity sha512-6iwE3Y2RVYCME1jLpBqq7LQWK3MW6vjV2bZy6gt/WrqkY+WE74Spyc0ThAOYpMtITvnjX09CrC6ym7A/m9mebA==
+  optionalDependencies:
+    "@esbuild/aix-ppc64" "0.20.0"
+    "@esbuild/android-arm" "0.20.0"
+    "@esbuild/android-arm64" "0.20.0"
+    "@esbuild/android-x64" "0.20.0"
+    "@esbuild/darwin-arm64" "0.20.0"
+    "@esbuild/darwin-x64" "0.20.0"
+    "@esbuild/freebsd-arm64" "0.20.0"
+    "@esbuild/freebsd-x64" "0.20.0"
+    "@esbuild/linux-arm" "0.20.0"
+    "@esbuild/linux-arm64" "0.20.0"
+    "@esbuild/linux-ia32" "0.20.0"
+    "@esbuild/linux-loong64" "0.20.0"
+    "@esbuild/linux-mips64el" "0.20.0"
+    "@esbuild/linux-ppc64" "0.20.0"
+    "@esbuild/linux-riscv64" "0.20.0"
+    "@esbuild/linux-s390x" "0.20.0"
+    "@esbuild/linux-x64" "0.20.0"
+    "@esbuild/netbsd-x64" "0.20.0"
+    "@esbuild/openbsd-x64" "0.20.0"
+    "@esbuild/sunos-x64" "0.20.0"
+    "@esbuild/win32-arm64" "0.20.0"
+    "@esbuild/win32-ia32" "0.20.0"
+    "@esbuild/win32-x64" "0.20.0"
+
+follow-redirects@^1.15.0:
+  version "1.15.2"
+  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
+
+image-downloader@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.npmjs.org/image-downloader/-/image-downloader-4.3.0.tgz"
+  integrity sha512-UBioN0E+8zu8N0lLC6wkZmPA/MA1A3yx9B1whjy5O/YiOV9XrSxLLKi7JqLLj6knQ3n9N1OBoHFS7shp8sehBQ==
+  dependencies:
+    follow-redirects "^1.15.0"
+
+typescript@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz"
+  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
+
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
